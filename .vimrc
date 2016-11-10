@@ -3,7 +3,9 @@
 :set ic
 :set number "Display line numbers
 :nnoremap <F5> :GundoToggle<CR>
-:nnoremap <F6> :Goyo<CR>
+:nnoremap <F6> :TlistToggle<CR>
+
+" :nnoremap <F6> :Goyo<CR>
 
 " Use UTF8
 :set encoding=utf-8
@@ -38,6 +40,7 @@ Plug 'valloric/youcompleteme'
 Plug 'tmhedberg/SimpylFold'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'taglist.vim'
 call plug#end()
 source ~/.vim/timeslot.vim
 
