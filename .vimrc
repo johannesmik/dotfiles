@@ -42,7 +42,6 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'taglist.vim'
 call plug#end()
-source ~/.vim/timeslot.vim
 
 " Use solarized theme
 syntax enable
