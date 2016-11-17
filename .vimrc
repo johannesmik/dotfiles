@@ -22,6 +22,9 @@ set tabstop=4 expandtab shiftwidth=4
 :set incsearch
 :set smartcase
 
+" Bash like completion
+:set wildmode=longest:full,full
+
 " Switch tabs
 :nnoremap <F7> gt
 :nnoremap <F8> gT
