@@ -2,6 +2,7 @@
 :nmap s :w<CR>
 :set ic
 :set number "Display line numbers
+:nnoremap <F4> :NERDTreeToggle<CR>
 :nnoremap <F5> :GundoToggle<CR>
 :nnoremap <F6> :TlistToggle<CR>
 
@@ -39,7 +40,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'valloric/youcompleteme'
 Plug 'tmhedberg/SimpylFold'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'jistr/vim-nerdtree-tabs'
+Plug 'scrooloose/nerdtree'
 Plug 'taglist.vim'
 call plug#end()
 
