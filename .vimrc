@@ -46,6 +46,7 @@ Plug 'tmhedberg/SimpylFold'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'taglist.vim'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 " Use solarized theme
@@ -59,4 +60,8 @@ colorscheme solarized
 
 " Remain in Gundo
 let g:gundo_return_on_revert = 0
+
+" Sets updatetime lower (default 4000)
+" such that gitgutter refreshes more often
+set updatetime=1000
 
