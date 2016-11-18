@@ -24,6 +24,7 @@ set tabstop=4 expandtab shiftwidth=4
 
 " Bash like completion
 :set wildmode=longest:full,full
+:set wildmenu
 
 " Switch tabs
 :nnoremap <F7> gt
