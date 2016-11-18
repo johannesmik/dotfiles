@@ -17,6 +17,7 @@ set tabstop=4 expandtab shiftwidth=4
 " Folding
 :setlocal foldmethod=syntax
 :nnoremap <space> za
+:nnoremap <space><space> zR
 
 " Search settings
 :set incsearch
