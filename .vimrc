@@ -48,6 +48,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'taglist.vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 " Use solarized theme
