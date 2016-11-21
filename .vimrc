@@ -2,6 +2,7 @@
 :nmap s :w<CR>
 :set ic
 :set number "Display line numbers
+:nnoremap <tab> :e#<CR>
 :nnoremap <F4> :NERDTreeToggle<CR>
 :nnoremap <F5> :GundoToggle<CR>
 :nnoremap <F6> :TlistToggle<CR>
