@@ -50,6 +50,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'taglist.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
+Plug 'mhinz/vim-grepper'
 call plug#end()
 
 " Use solarized theme
@@ -67,4 +68,8 @@ let g:gundo_return_on_revert = 0
 " Sets updatetime lower (default 4000)
 " such that gitgutter refreshes more often
 set updatetime=1000
+
+" Grepper options 
+let g:grepper = { 'highlight': 1 }
+:nmap gs <plug>(GrepperOperator)
 
