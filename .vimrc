@@ -4,8 +4,8 @@
 :set number "Display line numbers
 :nnoremap <tab> :e#<CR>
 :nnoremap <F4> :NERDTreeToggle<CR>
-:nnoremap <F5> :GundoToggle<CR>
-:nnoremap <F6> :TlistToggle<CR>
+:nnoremap <F5> :TagbarToggle<CR>
+:nnoremap <F6> :GundoToggle<CR>
 
 " :nnoremap <F6> :Goyo<CR>
 
@@ -30,7 +30,6 @@ set tabstop=4 expandtab shiftwidth=4
 
 " Switch tabs
 :nnoremap <F7> gt
-:nnoremap <F8> gT
 
 " Switch windows faster
 :nnoremap <C-J> <C-W><C-J>
@@ -47,7 +46,7 @@ Plug 'valloric/youcompleteme'
 Plug 'tmhedberg/SimpylFold'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'taglist.vim'
+Plug 'majutsushi/tagbar'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
 Plug 'mhinz/vim-grepper'
