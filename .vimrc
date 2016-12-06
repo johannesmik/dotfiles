@@ -43,6 +43,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'sjl/gundo.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'valloric/youcompleteme'
+Plug 'rdnetto/YCM-Generator', {'branch' : 'stable'}
 Plug 'tmhedberg/SimpylFold'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
