@@ -29,7 +29,8 @@ set tabstop=4 expandtab shiftwidth=4
 :set wildmenu
 
 " Switch tabs
-:nnoremap <F7> gt
+:nnoremap <F7> gT
+:nnoremap <F8> gt
 
 :set mouse=a
 
