@@ -62,7 +62,7 @@ let g:solarized_termcolors=256
 colorscheme solarized
 
 " CtrlP
-:nnoremap <c-j> :CtrlPTag<CR>
+:nnoremap <c-u> :CtrlPTag<CR>
 
 " Set Ycm Shortcuts
 nnoremap <leader>jd :YcmCompleter GoTo<CR>
