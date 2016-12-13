@@ -31,6 +31,8 @@ set tabstop=4 expandtab shiftwidth=4
 " Switch tabs
 :nnoremap <F7> gt
 
+:set mouse=a
+
 " Switch windows faster
 :nnoremap <C-J> <C-W><C-J>
 :nnoremap <C-K> <C-W><C-K>
