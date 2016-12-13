@@ -61,6 +61,10 @@ set background=light
 let g:solarized_termcolors=256
 colorscheme solarized
 
+" Set Ycm Shortcuts
+nnoremap <leader>jd :YcmCompleter GoTo<CR>
+nnoremap <leader>jf :YcmForceCompileAndDiagnostics<CR>
+
 " Use airline statusline all the time
 " set laststatus=2
 
