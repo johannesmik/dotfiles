@@ -85,3 +85,5 @@ set updatetime=1000
 let g:grepper = { 'highlight': 1 }
 :nmap gs <plug>(GrepperOperator)
 
+" Set unknown files
+autocmd BufRead,BufNewFile *.ops set filetype=sh
