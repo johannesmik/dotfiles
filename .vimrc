@@ -61,6 +61,9 @@ set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 
+" NERDTree
+let NERDTreeChDirMode=2
+
 " CtrlP
 :nnoremap <c-u> :CtrlPTag<CR>
 
