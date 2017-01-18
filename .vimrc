@@ -5,9 +5,7 @@
 :nnoremap <tab> :e#<CR>
 :nnoremap <F4> :NERDTreeToggle<CR>
 :nnoremap <F5> :TagbarToggle<CR>
-:nnoremap <F6> :GundoToggle<CR>
-
-" :nnoremap <F6> :Goyo<CR>
+:nnoremap <F6> :Goyo<CR>
 
 " Use UTF8
 :set encoding=utf-8
@@ -43,7 +41,6 @@ set tabstop=4 expandtab shiftwidth=4
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'altercation/vim-colors-solarized'
-Plug 'sjl/gundo.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'valloric/youcompleteme'
 Plug 'rdnetto/YCM-Generator', {'branch' : 'stable'}
@@ -73,9 +70,6 @@ nnoremap <leader>jf :YcmForceCompileAndDiagnostics<CR>
 
 " Use airline statusline all the time
 " set laststatus=2
-
-" Remain in Gundo
-let g:gundo_return_on_revert = 0
 
 " Sets updatetime lower (default 4000)
 " such that gitgutter refreshes more often
