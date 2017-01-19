@@ -66,6 +66,7 @@ let NERDTreeChDirMode=2
 
 " CtrlP
 :nnoremap <c-u> :CtrlPTag<CR>
+:let g:ctrlp_working_path_mode=''
 
 " Set Ycm Shortcuts
 nnoremap <leader>jd :YcmCompleter GoTo<CR>
