@@ -22,6 +22,9 @@ set tabstop=4 expandtab shiftwidth=4
 :set incsearch
 :set smartcase
 
+" Replace visual selection with C-r
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+
 " Bash like completion
 :set wildmode=longest:full,full
 :set wildmenu
