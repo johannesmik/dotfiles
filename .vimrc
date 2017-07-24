@@ -56,6 +56,7 @@ Plug 'xolox/vim-misc'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
 Plug 'mhinz/vim-grepper'
+Plug 'leafgarland/typescript-vim'
 call plug#end()
 
 " Use solarized theme
