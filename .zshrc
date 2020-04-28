@@ -105,3 +105,14 @@ export WORKON_HOME=~/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 
+# Load NVM (Nodejs Version Manager)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+# Android SDK
+export ANDROID_HOME="$HOME/Android/Sdk"
+
+# JAVA
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+
