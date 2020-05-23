@@ -16,6 +16,9 @@ set tabstop=4 expandtab shiftwidth=4
 " Keeps cursor in the center of the screen
 :set scrolloff=7
 
+" Make backspace work
+set backspace=indent,eol,start
+
 " Folding
 :setlocal foldmethod=syntax
 :nnoremap <space> za
