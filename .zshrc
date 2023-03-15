@@ -94,8 +94,10 @@ up() {
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /opt/ros/kinetic/setup.zsh
-source ~/catkin_ws/devel/setup.zsh
+
+# ROS and Catkin
+#source /opt/ros/kinetic/setup.zsh
+#source ~/catkin_ws/devel/setup.zsh
 
 # Make own scripts runable
 export PATH=~/scripts:$PATH
