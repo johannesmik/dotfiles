@@ -63,6 +63,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
 Plug 'mhinz/vim-grepper'
 Plug 'leafgarland/typescript-vim'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'lervag/vimtex'
 call plug#end()
 
 " Use solarized theme
@@ -96,3 +99,12 @@ xmap gs <plug>(GrepperOperator)
 
 " Set unknown files
 autocmd BufRead,BufNewFile *.ops set filetype=sh
+
+" Vimtex Viewer
+let g:vimtex_view_method='mupdf'
+" Disable overfull/underfull \hbox and all package warnings
+let g:vimtex_quickfix_latexlog = {
+          \ 'overfull' : 0,
+          \ 'underfull' : 0,
+          \ 'packages' : { 'default' : 0 },
+          \}
