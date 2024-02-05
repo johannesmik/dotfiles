@@ -1,0 +1,38 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+j",
+        "command": "-extension.vim_ctrl+j",
+        "when": "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl"
+    },
+    // {
+    //     "key": "left",
+    //     "command": "workbench.action.previousEditor"
+    // },
+    // {
+    //     "key": "right",
+    //     "command": "workbench.action.nextEditor"
+    // },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.previousEditor"
+    },
+    // {
+    //     "key": "tab",
+    //     "command": "workbench.action.quickOpenPreviousRecentlyUsedEditor"
+    // },
+    {
+        "key": "f4",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "f4",
+        "command": "workbench.view.explorer",
+        "when": "!explorerViewletVisible"
+    },
+    {
+        "key": "f4",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletVisible"
+    },
+]
